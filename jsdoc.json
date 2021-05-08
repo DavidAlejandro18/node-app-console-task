@@ -1,0 +1,14 @@
+{
+    "source": {
+        "include": [
+            "./helper",
+            "./models"
+        ],
+        "includePattern": ".+\\.js(doc|x)?$",
+        "exclude": "node_modules/|docs"
+    },
+    "plugins": [],
+    "opts": {
+        "destination": "docs/"
+    }
+}

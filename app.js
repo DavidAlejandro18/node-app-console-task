@@ -19,7 +19,7 @@ const main = async () => {
     //await pausa();
 
     do {
-        // IMPRJMIR EL MENU
+        // IMPRIMIR EL MENU
         opt = await inquirerMenu();
 
         switch (opt) {
